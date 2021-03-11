@@ -1,0 +1,6 @@
+/* iphone 5 320px */
+@media screen and (max-width: 320px){
+	#logo{
+		text-align: center;
+	}
+}
