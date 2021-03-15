@@ -1,6 +1,14 @@
 /* iphone 5 320px */
 @media screen and (max-width: 320px){
-	#logo{
-		text-align: center;
+	.herder-container{
+		display: flex;
+		justify-content: center;
+	}
+	.search_form_icon{
+		display: flex;
+		align-items: center;
+        background-color: #e5e5e5;
+        flex-direction: row;
+        width: 100%;
 	}
 }
