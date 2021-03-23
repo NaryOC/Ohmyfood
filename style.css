@@ -125,18 +125,20 @@ i.fa-store {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-.container {
-  background-color: #f2f2f2;
-}
 h2.container-title {
   text-align: left;
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
-.icon_heart {
+.icon_heart:hover {
   display: flex;
   justify-content: flex-end;
   font-size: 2rem;
+  cursor: pointer;
+  border: 0 solid transparent;
+  height: 2rem;
+  width: 2rem;
+  background: linear-gradient(to top, #9356dc, #ff79da);
 }
 .card_content {
   flex-direction: row;
