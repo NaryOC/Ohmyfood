@@ -130,14 +130,14 @@ h2.container-title {
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
-.icon_heart:hover {
+.icon_heart {
   display: flex;
   justify-content: flex-end;
   font-size: 2rem;
+}
+i.fa-heart:hover {
   cursor: pointer;
   border: 0 solid transparent;
-  height: 2rem;
-  width: 2rem;
   background: linear-gradient(to top, #9356dc, #ff79da);
 }
 .card_content {
