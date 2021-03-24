@@ -100,8 +100,7 @@ i.fa-store {
 .cards img {
   height: 10rem;
   width: 100%;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-radius: 1rem 1rem 0 0;
 }
 .card_badge {
   background-color: #99e2d0;
@@ -190,4 +189,5 @@ ul {
 }
 .footer_list {
   padding: 1rem;
+  margin-bottom: 0;
 }
