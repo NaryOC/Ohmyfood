@@ -2,6 +2,13 @@ body {
   margin: 0;
   font-family: Roboto, sans-serif;
 }
+body header {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 0 12px 0 rgb(0 0 0 / 50%);
+  top: 0;
+  width: 100%;
+}
 /* header logo */
 .herder-container {
   display: flex;
@@ -46,7 +53,7 @@ h4 {
   text-align: center;
   text-decoration: none;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 400;
   color: grey;
 }
 a {
@@ -88,7 +95,7 @@ input {
   margin-top: 20px;
 }
 .container-block {
-  margin: 15px;
+  margin: 25px;
   margin-left: 25px;
   background-color: #f6f6f6;
   display: flex;
@@ -99,6 +106,7 @@ input {
 .fonction-block h2 {
   text-align: left;
   padding: 15px;
+  margin-top: 1rem;
 }
 i.fa-store {
   color: #9356dc;
@@ -141,8 +149,8 @@ i.fa-store {
 .restaurants {
   background-color: #f2f2f2;
   margin-top: 3rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 h2.container-title {
   text-align: left;
@@ -160,6 +168,18 @@ h2.container-title {
   justify-content: flex-end;
   font-size: 2rem;
   margin: 1.2rem 0 2rem 3rem;
+}
+.icon_heart_3:hover i.fa-heart {
+  display: none;
+}
+.icon_heart_3:hover i.fas.fa-heart {
+  display: block;
+}
+.icon_heart_3 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+  margin: 1.2rem 0 2rem 5.5rem;
 }
 i.fa-heart:hover {
   cursor: pointer;
@@ -185,7 +205,7 @@ i.fas.fa-heart {
   width: 100%;
   position: relative;
   background-color: #353535;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 .footer_logo {
   font-family: Shrikhand;
@@ -213,5 +233,5 @@ ul {
 }
 .footer_list {
   padding: 1rem;
-  margin-bottom: 0;
+  margin: 0;
 }
