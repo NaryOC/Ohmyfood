@@ -15,6 +15,15 @@ body header {
   justify-content: center;
   padding: 27px;
 }
+/* previous icon */
+i.fas.fa-arrow-left {
+  display: flex;
+  font-size: 25px;
+  position: absolute;
+  left: 20px;
+  justify-content: left;
+  margin: 5px;
+}
 /* search form */
 .search_form_icon {
   display: flex;
@@ -117,6 +126,40 @@ i.fa-store {
   width: 100%;
   border-radius: 1rem 1rem 0 0;
 }
+/* img la palette */
+img.palette-du-goût {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+/* palette title */
+.menu_title {
+  font-family: Shrikhand;
+  text-align: left;
+  font-size: 23px;
+}
+/* subtitle palette */
+.title_enter {
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 0.5rem;
+  font-weight: 400;
+}
+/* section menu palette */
+.container_menu {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 15px 15px 0% 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 150px;
+  background-color: #e5e5e5;
+  border-radius: 15px 15px 0px 0px;
+}
 .card_badge {
   background-color: #99e2d0;
   color: #1b6150;
@@ -168,6 +211,18 @@ h2.container-title {
   justify-content: flex-end;
   font-size: 2rem;
   margin: 1.2rem 0 2rem 3rem;
+}
+/* icon heart palette */
+.icon_heart_palette:hover i.fa-heart {
+  display: none;
+}
+.icon_heart_palette:hover i.fas.fa-heart {
+  display: block;
+}
+.icon_heart_palette {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
 }
 .icon_heart_3:hover i.fa-heart {
   display: none;
