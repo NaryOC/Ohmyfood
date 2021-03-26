@@ -145,20 +145,97 @@ img.palette-du-goût {
   position: relative;
   padding-bottom: 0.5rem;
   font-weight: 400;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.plat_subtitle div {
+  height: 3px;
+  width: 15%;
+  background-color: #99e2d0;
 }
 /* section menu palette */
 .container_menu {
   box-sizing: border-box;
-  width: 100%;
-  max-width: 800px;
   margin: 0px auto;
   padding: 15px 15px 0% 15px;
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 150px;
-  background-color: #e5e5e5;
+  top: 11rem;
+  background-color: #f6f6f6;
   border-radius: 15px 15px 0px 0px;
+}
+/* section plat container */
+.item_plat {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 25%);
+}
+.menu_name {
+  margin: 0px;
+  padding-top: 1rem;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+p {
+  margin: 1px 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.item_price {
+  display: flex;
+  font-size: 18px;
+  justify-content: flex-end;
+  font-weight: 700;
+}
+/* icon check */
+.item_check {
+  height: 80px;
+  width: 10%;
+  background-color: #99e2d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(1);
+  transition-duration: 0.5s;
+  font-size: 18px;
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+  padding: 0px 5%;
+  border-radius: 0px 15px 15px 0px;
+}
+.fas.fa-check-circle {
+  color: #fff;
+  margin: -1rem 1rem;
+  width: 4rem;
+  display: flex;
+  transition-duration: 0.5s;
+}
+/* section plats et desserts */
+.plat_title div,
+.dessert_title div {
+  height: 3px;
+  width: 15%;
+  background-color: #99e2d0;
+}
+.title_plats,
+.title_dessert {
+  padding: 0;
+  margin-bottom: 5px;
+}
+/* button commande */
+.commande {
+  margin: 1rem;
 }
 .card_badge {
   background-color: #99e2d0;
@@ -223,6 +300,7 @@ h2.container-title {
   display: flex;
   justify-content: flex-end;
   font-size: 2rem;
+  margin-top: -2rem;
 }
 .icon_heart_3:hover i.fa-heart {
   display: none;
