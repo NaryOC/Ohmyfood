@@ -133,6 +133,27 @@ img.palette-du-goût {
   position: absolute;
   object-fit: cover;
 }
+/* img la note enchantée */
+img.La-note-enchante {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+/* img à la françcaise */
+img.à-la-française {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+/* img le délice */
+img.le-délice {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+}
 /* palette title */
 .menu_title {
   font-family: Shrikhand;
