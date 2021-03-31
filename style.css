@@ -190,7 +190,6 @@ img.le-délice {
 .item_plat {
   height: 80px;
   width: 100%;
-  display: flex;
   flex-direction: column;
   margin-top: 15px;
   align-items: center;
@@ -207,7 +206,7 @@ img.le-délice {
   color: #000;
 }
 p {
-  margin: 1px 15px;
+  margin: 1px 65px 0 15px;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -215,6 +214,7 @@ p {
 .item_price {
   display: flex;
   font-size: 18px;
+  margin: -20px 10px 0 0;
   justify-content: flex-end;
   font-weight: 700;
 }
