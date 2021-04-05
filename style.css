@@ -196,10 +196,10 @@ img.le-délice {
   flex-direction: row;
 }
 /* pour apparition */
-.pourApparition {
+.apparition {
   width: 86%;
 }
-.item_plat:hover .pourApparition {
+.item_plat:hover .apparition {
   width: 66%;
   transition: 400ms all;
 }
@@ -218,6 +218,7 @@ p {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  color: #2b2525;
 }
 .item_price {
   display: flex;
