@@ -178,7 +178,9 @@ img.le-délice {
   padding: 15px 15px 0% 15px;
   display: flex;
   flex-direction: column;
-  top: 11rem;
+  position: absolute;
+  width: 100%;
+  top: 16rem;
   background-color: #f6f6f6;
   border-radius: 15px 15px 0px 0px;
 }
@@ -366,7 +368,6 @@ i.fas.fa-heart {
 /* footer */
 .footer {
   width: 100%;
-  position: relative;
   background-color: #353535;
   padding-top: 1rem;
 }
