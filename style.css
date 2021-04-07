@@ -2,7 +2,19 @@ body {
   margin: 0;
   font-family: Roboto, sans-serif;
 }
-/* spinner
+/* spinner */
+.container_spinner {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: spinnertwo 3s linear;
+  animation-fill-mode: forwards;
+}
 .spinner {
   width: 100px;
   height: 100px;
@@ -16,6 +28,7 @@ body {
   border: 10px solid transparent;
   border-top-color: violet;
   border-radius: 50%;
+  justify-content: center;
   animation: spinnerOne 1.2s linear infinite;
 }
 .spinner div:nth-child(2) {
@@ -36,7 +49,23 @@ body {
     border-width: 10px;
   }
 }
-*/
+@keyframes spinnertwo {
+  0% {
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    width: 0;
+    height: 0;
+  }
+}
 body header {
   position: relative;
   background-color: #fff;
@@ -213,9 +242,10 @@ img.le-délice {
   padding: 15px;
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: relative;
   width: 100%;
-  top: 17rem;
+  z-index: 1;
+  margin-top: -25px;
   background-color: #f6f6f6;
   border-radius: 15px 15px 0px 0px;
 }
@@ -404,8 +434,6 @@ i.fas.fa-heart {
 /* footer */
 .footer {
   width: 100%;
-  position: relative;
-  top: 70rem;
   background-color: #353535;
   padding-top: 1rem;
 }
@@ -436,12 +464,4 @@ ul {
 .footer_list {
   padding: 1rem;
   margin: 0;
-}
-/* footer page 2 */
-.footer_page_2 {
-  width: 100%;
-  position: relative;
-  top: 74.5rem;
-  background-color: #353535;
-  padding-top: 1rem;
 }
