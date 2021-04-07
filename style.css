@@ -210,12 +210,12 @@ img.le-délice {
 .container_menu {
   box-sizing: border-box;
   margin: 0px auto;
-  padding: 15px 15px 0% 15px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   position: absolute;
   width: 100%;
-  top: 16rem;
+  top: 17rem;
   background-color: #f6f6f6;
   border-radius: 15px 15px 0px 0px;
 }
@@ -400,9 +400,12 @@ i.fas.fa-heart {
 .subtitle {
   margin-left: 1rem;
 }
+
 /* footer */
 .footer {
   width: 100%;
+  position: relative;
+  top: 70rem;
   background-color: #353535;
   padding-top: 1rem;
 }
@@ -433,4 +436,12 @@ ul {
 .footer_list {
   padding: 1rem;
   margin: 0;
+}
+/* footer page 2 */
+.footer_page_2 {
+  width: 100%;
+  position: relative;
+  top: 74.5rem;
+  background-color: #353535;
+  padding-top: 1rem;
 }
