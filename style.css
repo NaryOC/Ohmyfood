@@ -66,6 +66,20 @@ body {
     height: 0;
   }
 }
+/* item_plat appear */
+.item_plat {
+  z-index: 1;
+  animation: item_plat 3s linear;
+}
+@keyframes item_plat {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 body header {
   position: relative;
   background-color: #fff;
