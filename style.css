@@ -310,8 +310,10 @@ p {
 }
 /* icon check */
 .item_check {
-  height: 100%;
+  height: auto;
   width: 10%;
+  left: 100%;
+  position: absolute;
   background-color: #99e2d0;
   display: flex;
   align-items: center;
@@ -319,7 +321,6 @@ p {
   transform: scale(1);
   transition-duration: 0.5s;
   font-size: 18px;
-  right: 0px;
   cursor: pointer;
   padding: 0px 5%;
   border-radius: 0px 15px 15px 0px;
