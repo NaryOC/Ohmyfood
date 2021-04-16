@@ -301,6 +301,7 @@ p {
   overflow: hidden;
   color: #2b2525;
 }
+
 .item_price {
   display: flex;
   font-size: 18px;
@@ -308,12 +309,12 @@ p {
   justify-content: flex-end;
   font-weight: 700;
 }
+
 /* icon check */
 .item_check {
-  height: auto;
+  height: 80px;
   width: 10%;
-  left: 100%;
-  position: absolute;
+  left: 80%;
   background-color: #99e2d0;
   display: flex;
   align-items: center;
@@ -325,6 +326,7 @@ p {
   padding: 0px 5%;
   border-radius: 0px 15px 15px 0px;
 }
+
 .fas.fa-check-circle {
   color: #fff;
   margin: -1rem 1rem;
