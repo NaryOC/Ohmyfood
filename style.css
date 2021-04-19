@@ -414,21 +414,22 @@ h2.container-title {
   display: flex;
   justify-content: flex-end;
   font-size: 2rem;
-  margin: 1.2rem 0 2rem 3rem;
+  margin: 1.2rem 0 2rem 7rem;
 }
 /* icon heart palette */
-.icon_heart_palette:hover i.fa-heart {
+.icon_heart_start:hover i.fa-heart {
   display: none;
 }
-.icon_heart_palette:hover i.fas.fa-heart {
+.icon_heart_start:hover i.fas.fa-heart {
   display: block;
 }
-.icon_heart_palette {
+.icon_heart_start {
   display: flex;
   justify-content: flex-end;
   font-size: 2rem;
   margin-top: -2rem;
 }
+/* icon_heart 3 */
 .icon_heart_3:hover i.fa-heart {
   display: none;
 }
@@ -439,8 +440,9 @@ h2.container-title {
   display: flex;
   justify-content: flex-end;
   font-size: 2rem;
-  margin: 1.2rem 0 2rem 5.5rem;
+  margin: 1.2rem 0 2rem 9rem;
 }
+
 i.fa-heart:hover {
   cursor: pointer;
   border: 0 solid transparent;

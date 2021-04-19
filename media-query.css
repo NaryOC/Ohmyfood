@@ -1,6 +1,18 @@
-@media (min-width: 1280px) {
-  .fonction-block {
+@media (min-width: 1024px) {
+  .block-container {
+    display: flex;
+    flex-direction: wrap;
+  }
+  .container {
     display: flex;
     flex-wrap: wrap;
+    height: auto;
+    width: 50%;
+  }
+  .icon_heart,
+  .icon_heart_3 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 1.2rem 0 2rem 23rem;
   }
 }
