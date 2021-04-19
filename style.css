@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: spinnertwo 3s linear;
+  animation: spinnertwo 4s linear;
   animation-fill-mode: forwards;
 }
 .spinner {
@@ -157,11 +157,24 @@ input {
   font-size: 18px;
   padding: 15px;
   justify-content: center;
-  background: linear-gradient(to top, #9356dc, #ff79da);
+  background-color: #686868;
+  background: linear-gradient(
+    0deg,
+    rgba(135, 50, 275, 0.9),
+    rgba(235, 90, 210, 0.9)
+  );
   transition-duration: 0.25s;
-  box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+  box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
 }
-
+input:hover {
+  background: linear-gradient(
+    0deg,
+    rgba(147, 60, 210, 0.9),
+    rgba(255, 121, 218, 0.9)
+  );
+  background-color: #fff;
+  box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 75%);
+}
 /* Fonctionnement */
 .block-number {
   display: flex;
