@@ -15,4 +15,7 @@
     justify-content: flex-start;
     margin: 1.2rem 0 2rem 23rem;
   }
+  .cards img {
+    height: 15rem;
+  }
 }
