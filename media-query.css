@@ -1,4 +1,4 @@
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .block-container {
     display: flex;
     flex-direction: wrap;
@@ -15,7 +15,16 @@
     justify-content: flex-start;
     margin: 1.2rem 0 2rem 23rem;
   }
-  .cards img {
+  .cards {
+    width: 90%;
+    margin-left: 1rem;
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .card_container {
+    width: 35rem;
     height: 15rem;
   }
 }
