@@ -9,22 +9,32 @@
     height: auto;
     width: 50%;
   }
-  .icon_heart,
-  .icon_heart_3 {
-    display: flex;
-    justify-content: flex-start;
-    margin: 1.2rem 0 2rem 23rem;
+  h2.container-title {
+    margin-left: 2rem;
   }
-  .cards {
+  div.icon_heart {
+    margin: 1.2rem 0 2rem 20rem;
+  }
+  div.icon_heart_3 {
+    margin-left: 22rem;
+  }
+  div.cards {
     width: 90%;
-    margin-left: 1rem;
-    margin: 2rem;
+    margin-left: 2rem;
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  figure.card_container {
+    width: 39rem;
+  }
+  /* page 1 */
+  .container_foods {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
   }
-  .card_container {
-    width: 35rem;
-    height: 15rem;
+  /* footer */
+  .container_footer {
+    margin-left: 1rem;
   }
 }
