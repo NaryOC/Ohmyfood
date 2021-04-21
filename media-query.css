@@ -1,7 +1,7 @@
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
   .block-container {
     display: flex;
-    flex-direction: wrap;
+    flex-direction: row;
   }
   .container {
     display: flex;
@@ -29,9 +29,8 @@
     width: 39rem;
   }
   /* page 1 */
-  .container_foods {
-    display: flex;
-    flex-wrap: wrap;
+  .container_menu {
+    width: 95%;
   }
   /* footer */
   .container_footer {
