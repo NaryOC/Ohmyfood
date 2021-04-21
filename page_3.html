@@ -16,6 +16,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-query.css" />
   </head>
   <body>
     <header class="restaurant_header">
@@ -38,122 +39,125 @@
             <i class="fas fa-heart"></i>
           </div>
           <!--entrée-->
-          <section class="menu_entrée">
-            <div class="plat_subtitle">
-              <h3 class="title_enter">ENTRÉES</h3>
-              <div></div>
-            </div>
-          </section>
-          <section class="plat_container">
-            <div class="item_plat">
-              <div class="apparition">
-                <h3 class="menu_name">Tartare de poulpe acidulé</h3>
-                <p>Aux zestes d'orange</p>
+          <div class="container_foods">
+            <section class="menu_entrée">
+              <div class="plat_subtitle">
+                <h3 class="title_enter">ENTRÉES</h3>
+                <div></div>
               </div>
-              <div class="item_price">25€</div>
-              <div class="item_check">
-                <i class="fas fa-check-circle"></i>
+            </section>
+            <section class="plat_container">
+              <div class="item_plat">
+                <div class="apparition">
+                  <h3 class="menu_name">Tartare de poulpe acidulé</h3>
+                  <p>Aux zestes d'orange</p>
+                </div>
+                <div class="item_price">25€</div>
+                <div class="item_check">
+                  <i class="fas fa-check-circle"></i>
+                </div>
               </div>
-            </div>
-            <div class="item_plat">
-              <div class="apparition">
-                <h3 class="menu_name">Velouté de légumes d'antan</h3>
-                <p>Carotte, panais, topinambour</p>
+              <div class="item_plat">
+                <div class="apparition">
+                  <h3 class="menu_name">Velouté de légumes d'antan</h3>
+                  <p>Carotte, panais, topinambour</p>
+                </div>
+                <div class="item_price">35€</div>
+                <div class="item_check">
+                  <i class="fas fa-check-circle"></i>
+                </div>
               </div>
-              <div class="item_price">35€</div>
-              <div class="item_check">
-                <i class="fas fa-check-circle"></i>
+              <div class="item_plat">
+                <div class="apparition">
+                  <h3 class="menu_name">Soupe à l'oignon</h3>
+                  <p>Revisitée</p>
+                </div>
+                <div class="item_price">20€</div>
+                <div class="item_check">
+                  <i class="fas fa-check-circle"></i>
+                </div>
               </div>
-            </div>
-            <div class="item_plat">
-              <div class="apparition">
-                <h3 class="menu_name">Soupe à l'oignon</h3>
-                <p>Revisitée</p>
+            </section>
+            <!--plats-->
+            <section class="menu_plat">
+              <div class="plat_title">
+                <h3 class="title_plats">PLATS</h3>
+                <div></div>
               </div>
-              <div class="item_price">20€</div>
-              <div class="item_check">
-                <i class="fas fa-check-circle"></i>
+              <div class="item_plat">
+                <div class="apparition">
+                  <h3 class="menu_name">Coquilles Saint-Jacques</h3>
+                  <p>Accompagnées d'une purée de panais</p>
+                </div>
+                <div class="item_price">40€</div>
+                <div class="item_check">
+                  <i class="fas fa-check-circle"></i>
+                </div>
               </div>
-            </div>
-          </section>
-          <!--plats-->
-          <section class="menu_plat">
-            <div class="plat_title">
-              <h3 class="title_plats">PLATS</h3>
-              <div></div>
-            </div>
-            <div class="item_plat">
-              <div class="apparition">
-                <h3 class="menu_name">Coquilles Saint-Jacques</h3>
-                <p>Accompagnées d'une purée de panais</p>
+              <div class="item_plat">
+                <div class="apparition">
+                  <h3 class="menu_name">Magret de canard</h3>
+                  <p>Et parmentier de pommes de terre</p>
+                </div>
+                <div class="item_price">35€</div>
+                <div class="item_check">
+                  <i class="fas fa-check-circle"></i>
+                </div>
               </div>
-              <div class="item_price">40€</div>
-              <div class="item_check">
-                <i class="fas fa-check-circle"></i>
+              <div class="item_plat">
+                <div class="apparition">
+                  <h3 class="menu_name">Pigeonneau d’Ille-et-Vilaine</h3>
+                  <p>Sur son lit de gnocchis aux légumes</p>
+                </div>
+                <div class="item_price">44€</div>
+                <div class="item_check">
+                  <i class="fas fa-check-circle"></i>
+                </div>
               </div>
-            </div>
-            <div class="item_plat">
-              <div class="apparition">
-                <h3 class="menu_name">Magret de canard</h3>
-                <p>Et parmentier de pommes de terre</p>
+            </section>
+            <!--desserts-->
+            <section class="dessert">
+              <div class="dessert_title">
+                <h3 class="title_dessert">DESSERTS</h3>
+                <div></div>
               </div>
-              <div class="item_price">35€</div>
-              <div class="item_check">
-                <i class="fas fa-check-circle"></i>
+              <div class="item_plat">
+                <div class="apparition">
+                  <h3 class="menu_name">Pétales de violettes glacés</h3>
+                  <p>Et purée de noisettes</p>
+                </div>
+                <div class="item_price">18€</div>
+                <div class="item_check">
+                  <i class="fas fa-check-circle"></i>
+                </div>
               </div>
-            </div>
-            <div class="item_plat">
-              <div class="apparition">
-                <h3 class="menu_name">Pigeonneau d’Ille-et-Vilaine</h3>
-                <p>Sur son lit de gnocchis aux légumes</p>
+              <div class="item_plat">
+                <div class="apparition">
+                  <h3 class="menu_name">Fondant au chocolat</h3>
+                  <p>Revisitée</p>
+                </div>
+                <div class="item_price">22€</div>
+                <div class="item_check">
+                  <i class="fas fa-check-circle"></i>
+                </div>
               </div>
-              <div class="item_price">44€</div>
-              <div class="item_check">
-                <i class="fas fa-check-circle"></i>
+              <div class="item_plat">
+                <div class="apparition">
+                  <h3 class="menu_name">Millefeuille croustillant</h3>
+                  <p>Myrtilles et pâte d’amande</p>
+                </div>
+                <div class="item_price">23€</div>
+                <div class="item_check">
+                  <i class="fas fa-check-circle"></i>
+                </div>
               </div>
-            </div>
-          </section>
-          <!--desserts-->
-          <section class="dessert">
-            <div class="dessert_title">
-              <h3 class="title_dessert">DESSERTS</h3>
-              <div></div>
-            </div>
-            <div class="item_plat">
-              <div class="apparition">
-                <h3 class="menu_name">Pétales de violettes glacés</h3>
-                <p>Et purée de noisettes</p>
-              </div>
-              <div class="item_price">18€</div>
-              <div class="item_check">
-                <i class="fas fa-check-circle"></i>
-              </div>
-            </div>
-            <div class="item_plat">
-              <div class="apparition">
-                <h3 class="menu_name">Fondant au chocolat</h3>
-                <p>Revisitée</p>
-              </div>
-              <div class="item_price">22€</div>
-              <div class="item_check">
-                <i class="fas fa-check-circle"></i>
-              </div>
-            </div>
-            <div class="item_plat">
-              <div class="apparition">
-                <h3 class="menu_name">Millefeuille croustillant</h3>
-                <p>Myrtilles et pâte d’amande</p>
-              </div>
-              <div class="item_price">23€</div>
-              <div class="item_check">
-                <i class="fas fa-check-circle"></i>
-              </div>
-            </div>
-            <!--input button-->
-            <div class="commande">
-              <input type="button" value="Commander" />
-            </div>
-          </section>
+            </section>
+          </div>
+        </div>
+
+        <!--input button-->
+        <div class="commande">
+          <input type="button" value="Commander" />
         </div>
       </section>
     </main>
