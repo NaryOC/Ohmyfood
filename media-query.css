@@ -35,6 +35,7 @@
   }
   .container-title {
     font-size: 20px;
+    padding-top: 40px;
   }
   .container_foods {
     display: flex;
