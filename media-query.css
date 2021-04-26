@@ -33,54 +33,12 @@
     width: 95%;
     margin-top: -10%;
   }
-  .apparition {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
+
   .container_foods {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
-  .item_plat {
-    width: 65%;
-  }
-  .container_item_1 {
-    z-index: 1;
-    animation: item_plat 0s linear;
-  }
-  @keyframes item_plat_1 {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  .container_item_2 {
-    z-index: 1;
-    animation: item_plat 4s linear;
-  }
-  @keyframes item_plat_2 {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  .container_item_3 {
-    z-index: 1;
-    animation: item_plat 8s linear;
-  }
-  @keyframes item_plat_3 {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+
   input {
     margin: 2rem;
     width: 20%;
