@@ -33,12 +33,30 @@
     width: 95%;
     margin-top: -10%;
   }
-
+  .container-title {
+    font-size: 20px;
+  }
   .container_foods {
     display: flex;
     flex-direction: column;
   }
-
+  .food-name {
+    font-size: 20px;
+  }
+  .ingredients {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .prix {
+    font-size: 20px;
+    padding: 55px 15px 0 8px;
+  }
+  .price {
+    padding: 0 4px 57px 0;
+  }
+  .fas.fa-check-circle {
+    margin: -1rem 2rem;
+  }
   input {
     margin: 2rem;
     width: 20%;

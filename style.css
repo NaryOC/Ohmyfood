@@ -199,7 +199,7 @@ i.fa-store {
 }
 /* section restaurants */
 .cards img {
-  height: 15rem;
+  height: 30rem;
   width: 100%;
   border-radius: 1rem 1rem 0 0;
 }
@@ -212,7 +212,7 @@ img.palette-du-goût {
 }
 /* img la note enchantée */
 img.La-note-enchante {
-  height: 15rem;
+  height: 50rem;
   width: 100%;
   object-fit: cover;
 }
