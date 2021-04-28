@@ -243,8 +243,10 @@ i.fas.fa-arrow-left {
   margin: 5px;
 }
 .container-title {
+  text-align: left;
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
   font-size: 18px;
-  margin: 3px;
   padding-top: 20px;
 }
 p {
@@ -433,11 +435,7 @@ p {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-h2.container-title {
-  text-align: left;
-  margin-left: 1.2rem;
-  margin-bottom: 1rem;
-}
+
 .icon_heart:hover i.fa-heart {
   display: none;
 }
@@ -536,7 +534,7 @@ ul {
   .cards{
     margin-left: 2.4rem;
   }
-  h2.container-title{
+.container-title{
     margin-left: 2.2rem;
     font-size: 25px;
   }
