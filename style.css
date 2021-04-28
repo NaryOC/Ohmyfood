@@ -79,16 +79,8 @@ body header {
   justify-content: center;
   padding: 27px;
 }
-/* previous icon */
-i.fas.fa-arrow-left {
-  display: flex;
-  font-size: 25px;
-  position: absolute;
-  left: 20px;
-  justify-content: left;
-  margin: 5px;
-}
-/* search form */
+
+/* search form Paris-Belleville */
 .search_form_icon {
   display: flex;
   align-items: center;
@@ -99,6 +91,7 @@ i.fas.fa-arrow-left {
 .outils {
   background-color: #e5e5e5;
 }
+/* icon map */
 .fas {
   font-size: 18px;
 }
@@ -203,7 +196,7 @@ i.fa-store {
 }
 /* section restaurants */
 .cards img {
-  height: 30rem;
+  height: 15rem;
   width: 100%;
   border-radius: 1rem 1rem 0 0;
 }
@@ -240,6 +233,15 @@ img.le-délice {
   margin-left: 6px;
 }
 /* page 1 */
+/* previous flèche icon */
+i.fas.fa-arrow-left {
+  display: flex;
+  font-size: 25px;
+  position: absolute;
+  left: 20px;
+  justify-content: left;
+  margin: 5px;
+}
 .container-title {
   font-size: 18px;
   margin: 3px;
@@ -418,7 +420,7 @@ p {
 }
 .cards {
   width: 90%;
-  margin-left: 1rem;
+  margin-left: 1.2rem;
 }
 .card_description {
   background-color: #fff;
@@ -433,7 +435,7 @@ p {
 }
 h2.container-title {
   text-align: left;
-  margin-left: 1rem;
+  margin-left: 1.2rem;
   margin-bottom: 1rem;
 }
 .icon_heart:hover i.fa-heart {
@@ -504,7 +506,7 @@ i.fas.fa-heart {
 .footer_logo {
   font-family: Shrikhand;
   color: #fff;
-  margin-left: 1rem;
+  margin-left: 1.2rem;
 }
 i.fa-utensils,
 i.fa-hands-helping {
@@ -527,5 +529,31 @@ ul {
 }
 .footer_list {
   padding: 1rem;
-  margin: 0;
+  margin: 5px;
+}
+/* version iPad */
+@media screen and (max-width: 1024px){
+  .cards{
+    margin-left: 2.4rem;
+  }
+  h2.container-title{
+    margin-left: 2.2rem;
+    font-size: 25px;
+  }
+  .cards img{
+    height: 30rem;
+  }
+  .icon_heart{
+    margin-left: 27rem;
+  }
+  .icon_heart_3{
+    margin-left: 30rem;
+  }
+  .card_content h3{
+    font-size: 20px;
+    padding-top: 0;
+  }
+  .subtitle{
+    font-size: 20px;
+  }
 }
