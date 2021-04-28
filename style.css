@@ -201,7 +201,7 @@ i.fa-store {
   border-radius: 1rem 1rem 0 0;
 }
 /* img la palette */
-img.palette-du-goût {
+img.palette-du-gout {
   height: auto;
   width: 100%;
   object-fit: cover;
@@ -214,13 +214,13 @@ img.La-note-enchante {
   object-fit: cover;
 }
 /* img à la françcaise */
-img.à-la-française {
+img.a-la-francaise {
   height: auto;
   width: 100%;
   object-fit: cover;
 }
 /* img le délice */
-img.le-délice {
+img.le-delice {
   height: auto;
   width: 100%;
   object-fit: cover;
