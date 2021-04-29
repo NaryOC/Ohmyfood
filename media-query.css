@@ -1,5 +1,5 @@
 /* version PC */
-@media (min-width: 1024px) {
+@media (min-width: 1326px) {
   .block-container {
     display: flex;
     flex-direction: row;
@@ -71,7 +71,7 @@
 }
 
 /* version iPad */
-@media screen and (max-width: 1024px) {
+@media (min-width: 1024px) {
   .cards {
     margin-left: 2.4rem;
   }
