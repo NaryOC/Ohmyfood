@@ -232,7 +232,7 @@ img.le-delice {
   font-size: 23px;
   margin-left: 6px;
 }
-/* page 1 */
+/* start page menu */
 /* previous flèche icon */
 i.fas.fa-arrow-left {
   display: flex;
@@ -241,6 +241,19 @@ i.fas.fa-arrow-left {
   left: 20px;
   justify-content: left;
   margin: 5px;
+}
+/* icon heart menu*/
+.icon_heart_start:hover i.fa-heart {
+  display: none;
+}
+.icon_heart_start:hover i.fas.fa-heart {
+  display: block;
+}
+.icon_heart_start {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+  margin-top: -2rem;
 }
 .container-title {
   text-align: left;
@@ -262,6 +275,7 @@ hr {
 .animation_recette {
   display: flex;
 }
+/* animation le menu */
 .anim1 {
   animation: fadein 1s linear;
   animation-delay: 0.1s;
@@ -288,6 +302,7 @@ hr {
     opacity: 1;
   }
 }
+/*-------*/
 .recipe {
   background-color: white;
   border-radius: 15px 0 0 15px;
@@ -362,7 +377,7 @@ h3 {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-/*---------------------*/
+/*--------Fin Page menu-------------*/
 
 /* section menu palette */
 .container_menu {
@@ -378,7 +393,6 @@ h3 {
   background-color: #f6f6f6;
   border-radius: 15px 15px 0px 0px;
 }
-
 p {
   margin: -11px 0px 0 15px;
   white-space: nowrap;
@@ -386,7 +400,6 @@ p {
   overflow: hidden;
   color: #2b2525;
 }
-
 .fas.fa-check-circle {
   color: #fff;
   margin: -1rem 1rem;
@@ -394,7 +407,6 @@ p {
   display: flex;
   transition-duration: 0.5s;
 }
-
 /* button commande */
 .commande {
   margin: 1rem;
@@ -435,7 +447,7 @@ p {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-
+/* animation icon_heart */
 .icon_heart:hover i.fa-heart {
   display: none;
 }
@@ -448,20 +460,7 @@ p {
   font-size: 2rem;
   margin: 1.2rem 0 2rem 7rem;
 }
-/* icon heart palette */
-.icon_heart_start:hover i.fa-heart {
-  display: none;
-}
-.icon_heart_start:hover i.fas.fa-heart {
-  display: block;
-}
-.icon_heart_start {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 2rem;
-  margin-top: -2rem;
-}
-/* icon_heart 3 */
+/* animation icon_heart 3 */
 .icon_heart_3:hover i.fa-heart {
   display: none;
 }
@@ -527,5 +526,4 @@ ul {
 }
 .footer_list {
   padding: 1rem;
-  margin: 5px;
 }
