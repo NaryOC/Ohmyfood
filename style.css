@@ -302,7 +302,7 @@ hr {
     opacity: 1;
   }
 }
-/*-------*/
+/*--fin animation menu-----*/
 .recipe {
   background-color: white;
   border-radius: 15px 0 0 15px;
@@ -339,6 +339,7 @@ h3 {
   margin: 0;
   padding: 36px 15px 0 8px;
 }
+/* animation checkbox */
 .animation_recette .circle {
   width: 0px;
   transition: 0.2s;
