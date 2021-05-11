@@ -258,7 +258,6 @@ i.fas.fa-arrow-left {
 .container-title {
   text-align: left;
   margin-left: 1.2rem;
-  margin-bottom: 1rem;
   font-size: 18px;
   padding-top: 20px;
 }
@@ -269,7 +268,7 @@ p {
 hr {
   border: #99e2d0 solid 2px;
   width: 10px;
-  margin: 0 5px;
+  margin: 0 20px;
   padding: 0 10px;
 }
 .animation_recette {
