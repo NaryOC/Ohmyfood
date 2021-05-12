@@ -137,6 +137,11 @@
 
 /* version PC */
 @media (min-width: 1326px) {
+  img.La-note-enchante {
+    height: 50rem;
+    width: 100%;
+    object-fit: cover;
+  }
   .block-container {
     display: flex;
     flex-direction: row;
