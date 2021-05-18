@@ -91,6 +91,24 @@
     margin-left: 0.5rem;
   }
 }
+/* 966 */
+@media (min-width: 966px) {
+  .block-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .container-title {
+    margin-left: 2rem;
+    font-size: 22px;
+  }
+  .card_container {
+    width: 25rem;
+    margin-left: 2rem;
+  }
+  .container_footer {
+    margin-left: 2rem;
+  }
+}
 /* version iPad pro*/
 @media (min-width: 1024px) {
   .fonction-block {
@@ -135,8 +153,8 @@
   }
 }
 
-/* version PC */
-@media (min-width: 1920px) {
+/* version 1326px */
+@media (min-width: 1326px) {
   img.La-note-enchante {
     height: 50rem;
     width: 100%;
@@ -212,5 +230,15 @@
   /* footer */
   .container_footer {
     margin-left: 1rem;
+  }
+  /* responsive 1920px */
+  @media (min-width: 1920px) {
+    html {
+      width: 69%;
+    }
+    figure.card_container {
+      width: 38rem;
+      margin-left: 0;
+    }
   }
 }
