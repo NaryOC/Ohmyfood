@@ -187,7 +187,8 @@
     height: 30rem;
   }
   figure.card_container {
-    width: 39rem;
+    width: 38rem;
+    margin-left: 0;
   }
   /* page 1 */
   hr {
@@ -231,14 +232,15 @@
   .container_footer {
     margin-left: 1rem;
   }
-  /* responsive 1920px */
-  @media (min-width: 1920px) {
-    html {
-      width: 69%;
-    }
-    figure.card_container {
-      width: 38rem;
-      margin-left: 0;
-    }
+}
+
+/* responsive 1920px */
+@media (min-width: 1920px) {
+  html {
+    width: 69%;
+  }
+  figure.card_container {
+    width: 38rem;
+    margin-left: 0;
   }
 }
