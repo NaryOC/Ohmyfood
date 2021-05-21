@@ -169,6 +169,7 @@
     flex-wrap: wrap;
     height: auto;
     width: 50%;
+    margin-left: 1.5rem;
   }
   .icon_heart {
     margin: 1.2rem 0 2rem 23rem;
@@ -230,6 +231,6 @@
   }
   /* footer */
   .container_footer {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
   }
 }
