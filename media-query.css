@@ -1,11 +1,5 @@
 /* version Galaxy Fild 280px */
 @media (min-width: 280px) {
-  .icon_heart {
-    margin-left: 3rem;
-  }
-  .icon_heart_3 {
-    margin-left: 5rem;
-  }
   .cards img {
     height: 13rem;
   }
@@ -13,57 +7,21 @@
 
 /* version iPhone 5 320px */
 @media (min-width: 320px) {
-  .icon_heart {
-    margin-left: 5rem;
-  }
-  .icon_heart_3 {
-    margin-left: 7rem;
-  }
 }
 /* version Galaxy 360px */
 @media (min-width: 360px) {
-  .icon_heart {
-    margin-left: 7rem;
-  }
-  .icon_heart_3 {
-    margin-left: 9rem;
-  }
 }
 /* version iPhone 6 375px */
 @media (min-width: 375px) {
-  .icon_heart {
-    margin-left: 8rem;
-  }
-  .icon_heart_3 {
-    margin-left: 10rem;
-  }
 }
 /* version Pixel2 411px */
 @media (min-width: 411px) {
-  .icon_heart {
-    margin-left: 10rem;
-  }
-  .icon_heart_3 {
-    margin-left: 12rem;
-  }
 }
 /* version iPhone 6plus 414px */
 @media (min-width: 414px) {
-  .icon_heart {
-    margin-left: 10rem;
-  }
-  .icon_heart_3 {
-    margin-left: 12rem;
-  }
 }
 /* version Surface Duo 540px */
 @media (min-width: 540px) {
-  .icon_heart {
-    margin-left: 17rem;
-  }
-  .icon_heart_3 {
-    margin-left: 19rem;
-  }
   .cards img {
     height: 18rem;
   }
@@ -81,12 +39,7 @@
     width: 45.5rem;
     margin-left: 0;
   }
-  .icon_heart {
-    margin-left: 9rem;
-  }
-  .icon_heart_3 {
-    margin-left: 11rem;
-  }
+
   .container_footer {
     margin-left: 0.5rem;
   }
@@ -135,12 +88,7 @@
   .cards img {
     height: 20rem;
   }
-  .icon_heart {
-    margin-left: 14rem;
-  }
-  .icon_heart_3 {
-    margin-left: 16rem;
-  }
+
   .card_content h3 {
     font-size: 20px;
     padding-top: 0;
@@ -171,12 +119,7 @@
     width: 50%;
     margin-left: 1.5rem;
   }
-  .icon_heart {
-    margin: 1.2rem 0 2rem 23rem;
-  }
-  .icon_heart_3 {
-    margin-left: 25.5rem;
-  }
+
   .cards {
     width: 90%;
     margin-left: 1.5rem;

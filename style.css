@@ -66,7 +66,7 @@ body {
     height: 0;
   }
 }
-body header {
+.header {
   position: relative;
   background-color: #fff;
   box-shadow: 0 0 12px 0 rgb(0 0 0 / 50%);
@@ -258,6 +258,7 @@ i.fas.fa-arrow-left {
 .container-title {
   text-align: left;
   margin-left: 1.2rem;
+  margin-bottom: 0;
   font-size: 18px;
   padding-top: 20px;
 }
@@ -271,26 +272,25 @@ hr {
   margin: 0 20px;
   padding: 0 10px;
 }
-.animation_recette {
-  display: flex;
-}
+
 /* animation le menu */
-.anim1 {
+.delay-0 {
   animation: fadein 1s linear;
   animation-delay: 0.1s;
 }
-.anim2 {
+.delay-1 {
   animation: fadein 1.2s linear;
   animation-delay: 0.2s;
 }
-.anim3 {
+.delay-2 {
   animation: fadein 1.3s linear;
   animation-delay: 0.3s;
 }
-.anim4 {
+.delay-3 {
   animation: fadein 1.4s linear;
   animation-delay: 0.4s;
 }
+
 @keyframes fadein {
   0% {
     transform: translateY(15px);
@@ -302,14 +302,7 @@ hr {
   }
 }
 /*--fin animation menu-----*/
-.recipe {
-  background-color: white;
-  border-radius: 15px 0 0 15px;
-  width: 96%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
+
 h3 {
   font-family: "Roboto";
   padding-top: 3px;
@@ -318,66 +311,6 @@ h3 {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.ingredients {
-  font-size: 13px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.price {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  border-radius: 0 15px 15px 0;
-  padding: 0 4px 26px 0;
-  height: 38px;
-  background-color: white;
-}
-.prix {
-  font-size: 13px;
-  font-weight: 600;
-  margin: 0;
-  padding: 36px 15px 0 8px;
-}
-/* animation checkbox */
-.animation_recette .circle {
-  width: 0px;
-  transition: 0.2s;
-  transition-timing-function: ease-out;
-}
-.animation_recette:hover .circle {
-  width: 80px;
-  transition: 0.3s;
-  transition-timing-function: ease-in;
-}
-
-.animation_recette {
-  margin: 15px 0 10px 0px;
-  border-radius: 15px;
-  box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 25%);
-  cursor: pointer;
-}
-.circle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #99e2d0;
-  overflow: hidden;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  width: 0%;
-}
-.fa-check-circle {
-  color: white;
-}
-.food-name {
-  font-family: Roboto;
-  font-size: 15px;
-  font-weight: 700;
-  color: #000;
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-/*--------Fin Page menu-------------*/
 
 /* section menu palette */
 .container_menu {
@@ -393,20 +326,91 @@ h3 {
   background-color: #f6f6f6;
   border-radius: 15px 15px 0px 0px;
 }
-p {
-  margin: -11px 0px 0 15px;
+.menuItem {
+  background-color: #fff;
+  padding: 1rem;
+  display: flex;
+  border-radius: 0.75rem;
+  margin: 1rem 0;
+  box-shadow: 0 0 12px 0 rgb(0 0 0 / 50%);
+  overflow: hidden;
+  cursor: pointer;
+}
+.menuItem__header,
+.menuItem__title {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  color: #2b2525;
 }
-.fas.fa-check-circle {
-  color: #fff;
-  margin: -1rem 1rem;
+.menuItem__header {
+  flex: 1;
+}
+.menuItem__title {
+  margin: 0;
+  text-align: left;
+  color: #000;
+  font-weight: bold;
+}
+.menuItem__header,
+.menuItem__title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.menuItem__description {
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.menuItem__price {
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 0.5rem;
+}
+.menuItem:hover .menuItem__confirmation {
+  margin-right: -1rem;
+}
+.menuItem__confirmation {
+  background-color: #99e2d0;
+  margin: -1rem -5rem -1rem 1rem;
   width: 4rem;
   display: flex;
+  align-items: center;
+  justify-content: center;
   transition-duration: 0.5s;
 }
+.menuItem:hover .menuItem__wrapIcon {
+  transform: rotate(0);
+}
+.menuItem__wrapIcon {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  transform: rotate(180deg);
+  transition-duration: 0.5s;
+}
+.menuItem__icon {
+  color: #99e2d0;
+}
+/*
+.fa,
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+*/
 /* button commande */
 .commande {
   margin: 1rem;
@@ -437,9 +441,12 @@ p {
   margin-left: 1.2rem;
 }
 .card_description {
+  position: relative;
   background-color: #fff;
+  padding-left: 1rem;
+  height: 75px;
   border-radius: 0 0 1rem 1rem;
-  display: flex;
+  padding-bottom: 1rem;
 }
 .restaurants {
   background-color: #f2f2f2;
@@ -455,11 +462,19 @@ p {
   display: block;
 }
 .icon_heart {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 2rem;
-  margin: 1.2rem 0 2rem 7rem;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transform-origin: bottom;
+  -ms-transform-origin: bottom;
+  transform-origin: bottom;
+  opacity: 1;
+  font-size: 30px;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  cursor: pointer;
 }
+
 /* animation icon_heart 3 */
 .icon_heart_3:hover i.fa-heart {
   display: none;
