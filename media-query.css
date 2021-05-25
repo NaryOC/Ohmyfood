@@ -87,13 +87,13 @@
     display: flex;
     flex-wrap: wrap;
     height: auto;
-    width: 50%;
+    width: 97%;
     margin-left: 0;
   }
 
   .cards {
-    width: 90%;
-    margin-left: 1.5rem;
+    width: 100%;
+    padding: 0 15px;
     display: grid;
     column-gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
