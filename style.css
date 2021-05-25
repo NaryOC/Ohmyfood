@@ -312,7 +312,6 @@ h3 {
   text-overflow: ellipsis;
 }
 .container {
-  max-width: 1326px;
   margin: auto;
   padding: 0 20px;
   position: relative;
