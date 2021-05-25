@@ -93,7 +93,7 @@
 
   .cards {
     width: 100%;
-    padding: 0 15px;
+    padding: 0 20px;
     display: grid;
     column-gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
