@@ -128,5 +128,12 @@
   }
 }
 
-@media (min-width: 2634px) {
+@media (min-width: 1600px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    margin: auto;
+  }
 }
