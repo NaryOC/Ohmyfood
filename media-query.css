@@ -5,27 +5,11 @@
   }
 }
 
-/* version iPhone 5 320px */
-@media (min-width: 320px) {
-}
-/* version Galaxy 360px */
-@media (min-width: 360px) {
-}
-/* version iPhone 6 375px */
-@media (min-width: 375px) {
-}
-/* version Pixel2 411px */
-@media (min-width: 411px) {
-}
-/* version iPhone 6plus 414px */
-@media (min-width: 414px) {
-}
 /* version Surface Duo 540px */
 @media (min-width: 540px) {
   .cards img {
     height: 18rem;
   }
-  .container,
   .container_footer {
     margin-left: 1rem;
   }
@@ -36,30 +20,12 @@
     display: grid;
     column-gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
-    width: 45.5rem;
+    width: auto;
     margin-left: 0;
   }
 
   .container_footer {
     margin-left: 0.5rem;
-  }
-}
-/* 966 */
-@media (min-width: 966px) {
-  .block-container {
-    display: flex;
-    flex-direction: row;
-  }
-  .container-title {
-    margin-left: 2rem;
-    font-size: 22px;
-  }
-  .card_container {
-    width: 25rem;
-    margin-left: 2rem;
-  }
-  .container_footer {
-    margin-left: 2rem;
   }
 }
 /* version iPad pro*/
@@ -75,8 +41,8 @@
     display: grid;
     column-gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 2rem;
-    width: 25rem;
+    margin-left: 3rem;
+    width: 97%;
   }
   .card_container {
     width: 29rem;
@@ -117,7 +83,7 @@
     flex-wrap: wrap;
     height: auto;
     width: 50%;
-    margin-left: 1.5rem;
+    margin-left: 0;
   }
 
   .cards {
@@ -151,23 +117,7 @@
     display: flex;
     flex-direction: column;
   }
-  .food-name {
-    font-size: 20px;
-  }
-  .ingredients {
-    font-size: 20px;
-    margin-bottom: 1rem;
-  }
-  .prix {
-    font-size: 20px;
-    padding: 55px 15px 0 8px;
-  }
-  .price {
-    padding: 0 4px 57px 0;
-  }
-  .fas.fa-check-circle {
-    margin: -1rem 2rem;
-  }
+
   input {
     margin: 2rem;
     width: 20%;
@@ -176,4 +126,7 @@
   .container_footer {
     margin-left: 1.5rem;
   }
+}
+
+@media (min-width: 2634px) {
 }

@@ -311,7 +311,12 @@ h3 {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
+.container {
+  max-width: 1326px;
+  margin: auto;
+  padding: 0 20px;
+  position: relative;
+}
 /* section menu palette */
 .container_menu {
   box-sizing: border-box;
@@ -399,18 +404,7 @@ h3 {
 .menuItem__icon {
   color: #99e2d0;
 }
-/*
-.fa,
-.fas {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
-}
-*/
+
 /* button commande */
 .commande {
   margin: 1rem;
@@ -438,7 +432,8 @@ h3 {
 }
 .cards {
   width: 90%;
-  margin-left: 1.2rem;
+  position: relative;
+  margin: auto;
 }
 .card_description {
   position: relative;
